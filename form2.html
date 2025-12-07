@@ -1,29 +1,44 @@
 <html>
     <head>
+       
     </head>
     <body style="background-color: pink;">
-        <h1>
-            <center> Student's Registration form </center>
-        </h1>
-        <form action="submit.php"></form>
-        <label> First Name:</label> <input type="text" placeholder="Your First Name">-- <label> Lat name:</label> <input type="text" placeholder="Your Last name"> <br><br>
-        <label> Date of birth</label> <input type="date"> <br><br>
-        <label>Mobile No</label>  <input type="text" size="2" value="+977">  <input type="text"><br><br>
-        <label> Email:</label><input type="email"><br><br>
-        <label>Password:</label><input type="password"><br><br>
-        <label>Gender:</label><input type="radio"name="Gender"> Male <input type="radio" name="Gender"> Female<br><br>
-        <label>Department:</label><input type="checkbox">BICTE <input type="checkbox">EDUCATION<input type="checkbox">MANAGEMENT <br><br>
-        <label> Course:</label>
-        <select name="Course">
-            <option value="">Choose any of the course</option>
-            <option value="">BICTE</option>
-            <option value="">MANAGEMENT</option><br><br>
-            </select>
+         <h1> Student Registration form</h1>
+         <form action="">
+           Roll No: <input type="text"> <br><br>
+           Student's Name <input type="text" name="name" id="name" placeholder="First Name"> - <input type="text" name="name" id="name" placeholder="Last Name"
+           >
+           <br> <br>
+           Father's name: <input type="text" name="fname" id="fname">
+            <br>
+            <br>
+            Date of birth: <input type="text" name="date" size="1" placeholder="Day"> - <input type="text" size="3" placeholder="Month"> - <input type="text" size="3" placeholder="Year"> <i> (DD-MM-YYYY)</i>
             <br><br>
-            <label> Address</label> <textarea name="" id=""></textarea><br><br>
-    <input type="Submit" value="Register">
-    </form>
+            Mobile No: <input type="text" size= "1" > - <input type="text">
+            <br> <br>
+            Email id: <input type="text" name="" id="">
+            <br><br>
+            Password: <input type="password"><br><br>
+            Gender: <input type="radio">Male
+            <input type="radio"> Female <br><br>
+            Department: <input type="button"> CSE <input type="button"> IT <input type="button"> ECE <input type="button"> Civil <input type="button"> Mech <br><br>
+            Course: <select name="Course" id="Course">
+                <option value=""> --------- Select Current Course's ---------</option>
+                <option value="">Graphics Designing</option>
+                <option value="">Web development</option>
+                <option value="">Basic Computer Course</option>
+            </select>
+            <br>
+            <br>
+            Student's Photo: <input type="file">
+            <br> <br>
+            City: <input type="text"> <br><br>
 
+            Adress: <textarea name="" id=""></textarea> <br> <br>
 
-    </body>
+            <button>Register</button>
+         </form>
+
+         </body>
+
 </html>
